@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif; /* entre aspas qnd forem duas palavas. Essas 3 opções de letras é para caso ele não ache a primeira, então ele vai para a segunda e assim por diante... Pois existem aparelhos que não possuem a Arial, por exemplo.*/
+            
+           
+            /* Medidas absolutas
+            cm, mm, in(polegada), [px], pt, pc
+
+            Medidas relativas
+            [em], ex, rem, vw(tamanho da sua tela), vh, %
+            Vamos usar a px e em */
+            
+            font-size: 16px;  /*16px geralmente é o tamanho normal(padrão) da fonte e é igual a um em. 16px = em,  2em = 32px 
+            O melhor de todos para usar é o em !!!*/
+        
+        }
+
+        h1 {
+            /*
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            
+            /* shorthand font
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fugit quo modi dicta libero repudiandae doloremque, laudantium provident natus beatae iste, nemo, repellendus soluta optio architecto ipsum odit illum incidunt! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, nam, asperiores fugiat consequuntur accusantium ipsum voluptatum id pariatur unde earum dolorum. Atque est eos nesciunt nostrum reiciendis delectus voluptate illum.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, dicta ut? Earum tenetur facilis laboriosam vero, voluptate deserunt quod eveniet maiores odit, tempora eaque dignissimos excepturi? Magnam officiis similique itaque!</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eveniet ea dolorem aperiam minus aspernatur praesentium rem accusamus maxime, tempore quia fuga? Dolore nisi blanditiis unde repellat quas possimus culpa?</p>
+</body>
+</html>

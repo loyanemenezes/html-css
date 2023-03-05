@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+</head>
+<body>
+    <h1>Usando links Externos</h1>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.github.io/" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <p>Você também pode acessar o meu <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratuito no YouTube</a></p>
+    <h1>Usando links Internos</h1>
+    <p>Esta é a primeira página do meu site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next" target="_self">Segunda Página</a></p>
+    <p>Você também pode acessar a nossa <a href="noticias/pag003.html" rel="next" target="_self">página de notícias</a></p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/09 - Listas HTML.pdf" download="Listas HTML.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livro/09 - Listas HTML.zip" download="Listas HTML.zip" type="application/zip">Livro compactado em ZIP</a></li>
+    </ul>
+</body>
+</html>
+
+<!-- o target="_blank" faz abrir uma janela em branco, e ir para o endereço do link ao mesmo tempo que a janela do site que você está permanece aberta. O rel="external" se refere que é um link relativo a externo, ele indica que irá para fora do site que você está. Então quando você for abrir um site que NÃO É SEU, o ideal é que ele abra em outra aba! 
+
+Quando eu faço um link interno eu não preciso digitar a URl inteira, apenas a pasta que está a página. Desde de que a página(002) esteja na mesma pasta da página que eu quero colocar esse link (index)
+
+rel="next" avança para a próxima página de navegação 
+
+ href="noticias/pag003.html Caso esteja dentro de uma subpasta você tem que informar o caminho. ctrl + espaço + escolhe a subpasta e a página 
+
+target="_self" significa "na própria aba", quer dizer que quando eu estou na segunda página eu não preciso abrir uma aba nova, isso só é bom para a primeira página, senão acumula muitas abas no navegador. Então usamos esse parâmetro para permancer na página, sem abrir outra. 
+
+download="Listas HTML.pdf" type="application/pdf" Tudo isso serve para baixar o arquivo -->
