@@ -25,12 +25,31 @@
             border: 1px solid black;
             padding: 8px;
         }
+
+        col.cnome {
+            background-color: chartreuse;
+        }
+
+        .amarelo {
+            background-color: yellow;
+        }
+
+        .vermelho {
+            background-color: red;
+        }
+
+        
     </style>
 </head>
 <body>
     <h1>Exercício de Tabela</h1>
 
     <table>
+        <colgroup>
+            <col class="amarelo">
+            <col class="vermelho" span="2">
+            <col class="amarelo">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
@@ -67,6 +86,12 @@
             <td>F</td>
             <td>39</td>
             <td>Médica</td> 
+        </tr>
+        <tr>
+            <td>Otávio</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Nutricionista</td>
         </tr>
     </table>
 </body>
