@@ -9,9 +9,13 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: lightgray;
+
+}
+
 header {
-    background-color: rgb(4, 4, 58);
-    height: 100px;   
+    background-color: rgb(2, 2, 63); 
 }
 
 header h1 {
@@ -21,45 +25,62 @@ header h1 {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.704);
 }
 
+ #burguer {
+    background-color: rgb(56, 56, 135);
+    color: white;
+    display: block;
+    text-align: center;
+    padding-bottom: 10px;
+    cursor: pointer;
+ }
+
+ #burguer:hover {
+    background-color: white;
+    color: black;
+ }
+
 nav {
-    padding: 15px; 
+    display: none;
     
 }
 
+nav ul {
+    list-style-type: none;
+}
+
 nav a {
-    background-color: rgba(52, 52, 136, 0.712);
+    display: block;
+    background-color: rgb(56, 56, 135);
     text-decoration: none;
+    text-align: center;
     color: white;
     padding: 10px;
-    border-radius: 5px;
-    
+    border-top: 2px solid rgba(255, 255, 255, 0.504); 
 }
 
 nav a:hover {
     background-color: rgb(93, 93, 167);
 }
 
-body {
-    height: 100vh;
-    background-color: lightgray;
-
-}
-
 main {
+    width: 90vw;
     background-color: white;
     border-radius: 10px;
-    max-width: 768px;
     padding: 10px;
     margin: auto;
-    margin-top: 20px;
-    text-align: justify;
-    text-indent: 30px;
+    margin-top: 10px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.219);
     
 }
 
-main h1 {
-    font-size: 1.5em;
+article h2 {
+    padding-bottom: 20px;
+}
+
+article p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
 }
 
 
